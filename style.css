@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Libre Baskerville', serif;
+}
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+}
+.h3 {
+  text-align: left;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.im_wrapper {
+  position: relative;
+}
+
+.hover_im {
+  position: absolute;
+  top: -85px;
+  left: 116px;
+  z-index: -100;
+  display: none;
+}
+
+.im_wrapper:hover > .hover_im {
+  display: block;
+}
+
+img {
+  width: 300px;
+  border-radius: 30px;
+}
+body {
+  background-image: linear-gradient(to right, #43A4FF , #FF73FB);
+}
+ul {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+li {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
